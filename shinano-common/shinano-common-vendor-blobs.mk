@@ -19,9 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
     vendor/sony/shinano-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/sony/shinano-common/proprietary/bin/mlog_qmi_service:system/bin/mlog_qmi_service \
-    vendor/sony/shinano-common/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/sony/shinano-common/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/sony/shinano-common/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/sony/shinano-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/sony/shinano-common/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/sony/shinano-common/proprietary/bin/qseecomd:system/bin/qseecomd \
@@ -108,7 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/lib/libstartup-reason.so:system/lib/libstartup-reason.so \
     vendor/sony/shinano-common/proprietary/lib/libsys-utils.so:system/lib/libsys-utils.so \
     vendor/sony/shinano-common/proprietary/lib/libta.so:system/lib/libta.so \
-    vendor/sony/shinano-common/proprietary/vendor/etc/effect_init_params:system/vendor/etc/effect_init_params \
     vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
     vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
     vendor/sony/shinano-common/proprietary/vendor/firmware/keymaster/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
@@ -230,10 +227,7 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/liblistenhardware.so:system/vendor/lib/liblistenhardware.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera2_cpp_module.so:system/vendor/lib/libmmcamera2_cpp_module.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmcamera2_pproc_modules.so:system/vendor/lib/libmmcamera2_pproc_modules.so \
@@ -251,7 +245,6 @@ PRODUCT_COPY_FILES += \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/sony/shinano-common/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/sony/shinano-common/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
